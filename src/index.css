@@ -1,8 +1,9 @@
 :root {
   --fonte: 'Montserrat', sans-serif;
-  --grayDark: #252222;
-  --black: #000000;
+  --grayDark: #0f0f0f;
+  --black: #080808;
   --gray: gray;
+  --white: #FFFFFF;
 }
 
 body {
