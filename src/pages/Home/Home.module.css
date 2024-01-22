@@ -81,14 +81,14 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .filmes img {
-    padding-top: 20px;
-    max-height: 260px;
+  
+  .filmes article {
+    width: 350px;
   }
 
-  .filmes article {
-    width: 260px;
-
+  .filmes img {
+    padding-top: 10px;
+    width: 350px;
   }
 
   .filmes a {
