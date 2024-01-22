@@ -39,7 +39,7 @@ function Home(){
   return(
     <>
       <div style={{padding: 35}}></div>
-      <Banner image="home"/>
+      <Banner image="Home"/>
       <Title>
         <h1>Um lugar para guardar seus filmes!</h1>
       </Title>

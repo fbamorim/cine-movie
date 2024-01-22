@@ -69,7 +69,7 @@ function Filme(){
   return(
     <>
       <div style={{padding: 35}}></div>
-      <Banner image="player"/>
+      <Banner image="Player"/>
       <Title>
         <h1>Mais detalhes do filme</h1>
       </Title>

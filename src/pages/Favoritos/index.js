@@ -29,7 +29,7 @@ function Favoritos(){
   return(
     <>
       <div style={{padding: 35}}></div>
-      <Banner image="favoritos"/>
+      <Banner image="Favoritos"/>
       <Title>
         <h1>Minha lista de favoritos</h1>
       </Title>
