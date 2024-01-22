@@ -8,7 +8,6 @@ import Favoritos from "./pages/Favoritos";
 import Erro from './pages/Erro'
 import Footer from "./components/Footer";
 
-
 function RoutesApp() {
   return(
     <BrowserRouter>

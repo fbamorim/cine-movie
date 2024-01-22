@@ -38,6 +38,7 @@ function Home(){
 
   return(
     <>
+      <div style={{padding: 35}}></div>
       <Banner image="home"/>
       <Title>
         <h1>Um lugar para guardar seus filmes!</h1>
