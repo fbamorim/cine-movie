@@ -60,7 +60,7 @@
   color: gray;
 }
 
-@media screen and (min-width: 660px) and (max-width: 748px) {
+@media screen and (min-width: 320px) and (max-width: 748px) {
   .filmes img {
     padding-top: 20px;
     max-height: 280px;

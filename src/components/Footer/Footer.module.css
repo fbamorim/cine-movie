@@ -10,9 +10,8 @@
 }
 
 .logo {
-  width: 100px;
-  height: 30px;
-  margin-bottom: 5px;
+  width: 80px;
+  height: 20px;
 }
 
 
@@ -27,12 +26,17 @@
   .footer {
     flex-direction: column;
     gap: 2px;
-    padding-top: 4px;
+    padding-top: 10px;
 
   }
 
   .footer h2 {
     font-size: 12px;
+  }
+
+  .logo {
+    width: 90px;
+    height: 15px;
   }
 
 }
