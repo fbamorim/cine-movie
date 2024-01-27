@@ -1,5 +1,17 @@
+.semFavoritos {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .meus-filmes {
   margin: 0 60px;
+}
+
+.meus-filmes ul {
+  height: 10vh;
+  padding: 0;
 }
 
 .meus-filmes li {
@@ -55,12 +67,16 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .meus-filmes {
-    margin: 0 10px;
+    margin: 0 20px;
+  }
+
+  .meus-filmes ul {
+    height: 20vh;
   }
 
   .meus-filmes li {
     flex-direction: column;
-    margin: 0 10px;
+    margin: 4px 20px;
   }
   
   .meus-filmes span {
