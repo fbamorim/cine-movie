@@ -1,5 +1,7 @@
 .semFavoritos {
-  margin-top: 50px;
+  min-height: calc(100vh - 40px);
+  padding-bottom: 40px;
+  overflow: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,10 +9,12 @@
 
 .meus-filmes {
   margin: 0 60px;
+  min-height: calc(100vh - 40px);
+  padding-bottom: 40px;
+  overflow: auto;
 }
 
 .meus-filmes ul {
-  height: 10vh;
   padding: 0;
 }
 
@@ -68,10 +72,6 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .meus-filmes {
     margin: 0 20px;
-  }
-
-  .meus-filmes ul {
-    height: 20vh;
   }
 
   .meus-filmes li {
