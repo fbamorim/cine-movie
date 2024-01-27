@@ -1,4 +1,7 @@
 .filmes {
+  min-height: calc(60vh - 40px);
+  padding-bottom: 40px;
+  overflow: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;

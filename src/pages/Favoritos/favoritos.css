@@ -1,5 +1,5 @@
 .semFavoritos {
-  min-height: calc(100vh - 40px);
+  min-height: calc(60vh - 40px);
   padding-bottom: 40px;
   overflow: auto;
   display: flex;
@@ -9,7 +9,7 @@
 
 .meus-filmes {
   margin: 0 60px;
-  min-height: calc(100vh - 40px);
+  min-height: calc(50vh - 40px);
   padding-bottom: 40px;
   overflow: auto;
 }
