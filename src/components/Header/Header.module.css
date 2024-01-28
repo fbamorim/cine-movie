@@ -22,3 +22,13 @@
     margin-top: 10px;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+  }
+
+  .cabecalho nav {
+    margin-top: 15px;
+  }
+}

@@ -9,7 +9,7 @@
 
 .meus-filmes {
   margin: 0 60px;
-  min-height: calc(50vh - 40px);
+  min-height: calc(80vh - 40px);
   padding-bottom: 40px;
   overflow: auto;
 }
@@ -87,4 +87,24 @@
   .meus-filmes div a, button {
     font-size: 12px;
   }
-} 
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .meus-filmes {
+    margin: 0 40px;
+  }
+
+  .meus-filmes li {
+    flex-direction: column;
+    margin: 4px 20px;
+  }
+  
+  .meus-filmes span {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .meus-filmes div a, button {
+    font-size: 12px;
+  }
+}

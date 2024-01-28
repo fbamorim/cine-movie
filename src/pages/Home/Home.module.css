@@ -90,10 +90,8 @@
   }
 
   .filmes img {
-    padding-top: 10px;
     width: 350px;
     max-height: 460px;
-
   }
 
   .filmes a {
@@ -104,3 +102,17 @@
     font-size: 14px;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
+  .filmes article {
+    width: 200px;
+    margin: 0 10px;
+  }
+
+  .filmes img {
+    width: 350px;
+    max-height: 460px;
+  }
+}
+

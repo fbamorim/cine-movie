@@ -41,9 +41,7 @@
 
 .area-buttons button {
   background-color: var(--color-button);
-  margin-right: 12px;
-  margin-top: 14px;
-  margin-left: 0;
+  margin: 14px 12px 15px 0;
   font-size: 18px;
   border: 0;
   outline: none;
@@ -80,6 +78,20 @@
 
   .area-buttons button {
     font-size: 14px;
-
   }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .filme-info {
+    margin: 0 20px;
+  }
+
+  .filme-info h2, h3, span, strong, a  {
+    font-size: 14px;
+  }
+
+  .area-buttons button {
+    font-size: 14px;
+  }
+
 }

@@ -5,7 +5,7 @@
   background-color: var(--black);
   gap: 20px;
   width: 100%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   position: sticky;
   height: 40px;
 }
